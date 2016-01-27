@@ -1,0 +1,176 @@
+
+
+
+
+
+
+
+EXPLAIN ANALYSE SELECT * FROM postagens WHERE  usuario_id = 23 ;
+SELECT * FROM amizades WHERE  status= 1;
+select * from postagens where usuario_id = 23;
+select * from pg_indexes where tablename = 'postagens';
+CREATE INDEX amizades_status ON amizades USING HASH (status);
+--DROP INDEX fk_usuarios_has_usuarios_usuarios3_idx;
+
+select retorno();
+DELETE from "public"."postagens" where id > 147 ;
+UPDATE "public"."postagens" SET "status"='0' WHERE ("id" >'147') ;
+
+select date '2001-09-28' +  time '00:01' as dataagora
+
+
+
+-----------------------------------------------------
+
+
+
+CREATE OR REPLACE FUNCTION populaAmizades() RETURNS INT AS
+	$BODY$
+		DECLARE
+	  
+    usuariorandom1 integer :=0 ;
+    usuariorandom2 integer :=0 ;
+    i INTEGER;
+    resultado INTEGER;
+		BEGIN
+		i := 1;
+      LOOP	
+       select INTO usuariorandom1 id from usuarios
+       order by random()
+       limit 1;
+
+        select INTO usuariorandom2 id from usuarios
+        order by random()
+        limit 1;
+
+        select INTO resultado  Amizadeexits(usuariorandom1,usuariorandom2);
+      IF resultado = 2  THEN
+         CONTINUE;
+      END IF;
+				INSERT INTO amizades(usuario_id, pessoa_id, status)
+				VALUES ( usuariorandom1,usuariorandom2,1);
+				EXIT WHEN i > 150000; 
+				i:=i+1;
+			END LOOP;
+	   RETURN 1;
+    
+		END;
+	$BODY$
+LANGUAGE plpgsql VOLATILE
+
+
+
+
+
+
+
+
+---------------------------------
+
+
+
+
+
+
+EXPLAIN ANALYSE SELECT * FROM mensagens WHERE   status = 1;
+SELECT * FROM amizades WHERE  status= 1;
+select * from postagens where usuario_id = 23;
+select * from pg_indexes where tablename = 'postagens';
+CREATE INDEX amizades_status ON amizades USING HASH (status);
+--DROP INDEX fk_usuarios_has_usuarios_usuarios3_idx;
+select "count"(*) from amizades WHERE (pessoa_id = 9 or usuario_id = 9) and status = 1;
+select "count"(*) from comentarios ;
+
+select* from usuarios where id = 647 ;
+--select PopuladarUsuariosRede();
+DELETE from "public"."postagens" where id > 147 ;
+--UPDATE "public"."postagens" SET "status"='0' WHERE ("id" >'147') ;
+
+select date '2016-01-27 ' + time '12:00:02' + interval '2 second' as dataagora;
+
+
+
+--SELECT'testeEmail'|| 8000000 ||'@gmail.com'; 
+  SELECT date '2016-01-27 12:00:00'::INTERVAL SECOND(200);
+--SELECT id from usuarios WHERE id > 49;
+select populaAmizades(); 
+select retorno(); 
+update postagens set comentario_count =(comentario_count+1) where id = 11;
+
+select populaComentarios(); 
+--select * from amizades WHERE (pessoa_id = 17 or usuario_id = 17) and (pessoa_id = 9 or usuario_id = 9); 
+
+
+CREATE OR REPLACE FUNCTION populaComentarios() RETURNS INT AS
+	$BODY$
+		DECLARE
+	 lorota TEXT;
+   postagens integer :=0 ;
+   usuarioid integer :=0 ;
+   datapos date;
+   i INTEGER;
+		BEGIN
+		i := 1;
+
+  lorota := 'Caros amigos, o consenso sobre a necessidade de qualificação exige a precisão 
+e a definição de todos os recursos funcionais envolvidos. 
+Evidentemente, a complexidade dos estudos efetuados estimula a padronização 
+dos relacionamentos verticais 
+entre as hierarquias. Desta maneira, a contínua e';
+
+
+      LOOP	
+      select INTO postagens id ,usuarioid usuario_id from postagens
+       order by random()
+       limit 1;
+      INSERT INTO "public"."comentarios" ("postagem_id", "usuario_id", "created", "modified", "status", "conteudo") 
+      VALUES (postagens, usuarioid,now(),now(), '1', lorota);
+     update postagens set comentario_count += 1 where id = postagens;
+     EXIT WHEN i > 70000; 
+				i:=i+1;
+			END LOOP;
+	   RETURN 1;
+    
+		END;
+	$BODY$
+LANGUAGE plpgsql VOLATILE
+
+
+
+
+---------------------------------------------------------------
+
+
+
+
+DECLARE
+	  
+    usuariorandom1 integer :=0 ;
+    usuariorandom2 integer :=0 ;
+    i INTEGER;
+    resultado INTEGER;
+		BEGIN
+		i := 1;
+      LOOP	
+       select INTO usuariorandom1 id from usuarios
+       order by random()
+       limit 1;
+
+        select INTO usuariorandom2 id from usuarios
+        order by random()
+        limit 1;
+
+        select INTO resultado  Amizadeexits(usuariorandom1,usuariorandom2);
+      IF resultado = 2  THEN
+         i:=i+1;
+         CONTINUE;
+      END IF;
+				INSERT INTO amizades(usuario_id, pessoa_id, status)
+				VALUES ( usuariorandom1,usuariorandom2,1);
+				EXIT WHEN i > 5000; 
+				i:=i+1;
+			END LOOP;
+	   RETURN 1;
+    
+		END;
+	
