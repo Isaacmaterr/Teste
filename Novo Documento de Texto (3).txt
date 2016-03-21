@@ -1,0 +1,50 @@
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<?php
+echo $this->Html->script([
+   '/metronic/global/plugins/respond.min',
+   '/metronic/global/plugins/excanvas.min',
+]);
+?>
+<![endif]-->
+<?php
+echo $this->Html->script([
+   '/metronic/global/plugins/jquery.min',
+   '/metronic/global/plugins/jquery-migrate.min',
+   '/metronic/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min',
+   '/metronic/global/plugins/bootstrap/js/bootstrap.min',
+   '/metronic/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min',
+   '/metronic/global/plugins/jquery-slimscroll/jquery.slimscroll.min',
+   '/metronic/global/plugins/jquery.blockui.min',
+   '/metronic/global/plugins/jquery.cokie.min',
+   '/metronic/global/plugins/uniform/jquery.uniform.min',
+   '/metronic/global/plugins/bootstrap-switch/js/bootstrap-switch.min',
+]);
+?>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<?= $this->fetch('plugins_scripts') ?>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<?php 
+echo $this->Html->script([
+   '/metronic/global/scripts/metronic',
+   '/metronic/admin/layout/scripts/layout',
+   '/metronic/admin/layout/scripts/quick-sidebar',
+   '/metronic/admin/layout/scripts/demo',
+]);
+echo $this->fetch('page_scripts'); 
+?>
+<!-- END PAGE LEVEL SCRIPTS -->
+<?php 
+echo $this->Html->scriptBlock("
+jQuery(document).ready(function() {   
+   // initiate layout and plugins
+   Metronic.init(); // init metronic core components
+   Layout.init(); // init current layout
+   QuickSidebar.init(); // init quick sidebar
+   Demo.init(); // init demo features
+});   
+");
+echo $this->fetch('script'); 
+?>

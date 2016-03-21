@@ -1,0 +1,30 @@
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<?php
+echo $this->Html->css([
+	'/metronic/global/open-sans/font',
+	'/metronic/global/plugins/font-awesome/css/font-awesome.min',
+	'/metronic/global/plugins/simple-line-icons/simple-line-icons.min',
+	'/metronic/global/plugins/bootstrap/css/bootstrap.min',
+	'/metronic/global/plugins/uniform/css/uniform.default',
+	'/metronic/global/plugins/bootstrap-switch/css/bootstrap-switch.min',
+]);
+?>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<?= $this->fetch('plugins_styles') ?>
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+<!-- BEGIN PAGE STYLES -->
+<?= $this->fetch('page_styles') ?>
+<!-- END PAGE STYLES -->
+<!-- BEGIN THEME STYLES -->
+<?php
+echo $this->Html->css([
+	'/metronic/global/css/components',
+	'/metronic/global/css/plugins',
+	'/metronic/admin/layout/css/layout',
+	'/metronic/admin/layout/css/themes/default',
+	'/metronic/admin/layout/css/custom',
+]);
+?>
+<!-- END THEME STYLES -->
+<?= $this->fetch('css') ?>
