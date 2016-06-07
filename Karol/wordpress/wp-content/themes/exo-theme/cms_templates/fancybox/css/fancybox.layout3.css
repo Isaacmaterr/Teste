@@ -1,0 +1,78 @@
+.fancybox-layout3 {
+	padding: 25px 35px 25px 25px;
+	background-color: rgba(255,255,255,0.76);
+	-webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.fancybox-layout3 .cshero-fancybox-title-image {
+	margin-bottom: 10px;
+}
+.fancybox-layout3 .cshero-fancybox-image {
+	height: 75px;
+    overflow: hidden;
+    width: 75px;
+   	margin-bottom: 0;
+   	position: relative;
+}
+.fancybox-layout3 .cshero-fancybox-image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+
+.fancybox-layout3 .cshero-fancybox-title-wrap span {
+	display: block;
+	-webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.fancybox-layout3 .cshero-fancybox-title-wrap span.sub-title {
+    font-size: 19px;
+    margin: 0;
+}
+.fancybox-layout3 .cshero-fancybox-image .img-hover {
+	opacity: 0;
+}
+.fancybox-layout3 .cshero-read-more a {
+	background: #13151c;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 26px;
+    opacity: 0;
+}
+.fancybox-layout3 .cshero-read-more a i {
+	color: #fff;
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0px, -50%);
+       -moz-transform: translate(0px, -50%);
+        -ms-transform: translate(0px, -50%);
+         -o-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+    right: 6px;
+}
+.fancybox-layout3:hover .cshero-read-more a {
+	opacity: 1;
+}
+.fancybox-layout3:hover {
+	background-color: #ec6451;
+}
+.fancybox-layout3:hover .cshero-fancybox-image .img {
+	opacity: 0;
+}
+.fancybox-layout3:hover .cshero-fancybox-image .img-hover {
+	opacity: 1;
+}

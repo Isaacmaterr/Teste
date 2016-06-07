@@ -1,0 +1,44 @@
+.fancybox-layout4 {
+	padding: 25px 35px 25px 25px;
+	background-color: rgba(255,255,255,0.76);
+	-webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.fancybox-layout4 .cshero-fancybox-title-image {
+	margin-bottom: 10px;
+}
+.fancybox-layout4 .cshero-fancybox-image {
+	height: 75px;
+    overflow: hidden;
+    width: 75px;
+   	margin-bottom: 0;
+   	position: relative;
+}
+.fancybox-layout4 .cshero-fancybox-image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.fancybox-layout4 .cshero-fancybox-title-wrap {
+	padding-left: 90px;
+}
+.fancybox-layout4 .cshero-fancybox-title-wrap span {
+	display: block;
+	-webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.fancybox-layout4 .cshero-fancybox-title-wrap span.sub-title {
+    font-size: 19px;
+    margin: 0;
+}

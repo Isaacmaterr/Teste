@@ -1,0 +1,97 @@
+.portfolio-dexter .cshero-portfolio-wrapper {
+    position: relative;
+}
+.portfolio-dexter .cshero-portfolio-wrapper:before {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    height: -webkit-calc(50% - 30px);
+    height: calc(50% - 30px);
+    border: 7px solid #fff;
+    content: '';
+    z-index: 3;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+}
+.portfolio-dexter .cshero-portfolio-pic-wrapper {
+    position: relative;
+    z-index: 2;
+}
+.portfolio-dexter .cshero-portfolio-pic-inner {
+    overflow: hidden;
+}
+.portfolio-dexter .cshero-portfolio-pic-inner img {
+    opacity: 0.8;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.portfolio-dexter .overlay-more,
+.portfolio-dexter .overlay-content {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.portfolio-dexter .overlay-more {
+    z-index: 4;
+}
+.portfolio-dexter .overlay-content {
+    z-index: 1;
+    opacity: 1;
+    background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(104,60,19,1) 100%);
+    background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%);
+}
+.portfolio-dexter .cshero-portfolio-content-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 50px 60px;
+    z-index: 3;
+    -webkit-transition: transform 0.35s ease 0s;
+       -moz-transition: transform 0.35s ease 0s;
+         -o-transition: transform 0.35s ease 0s;
+        -ms-transition: transform 0.35s ease 0s;
+            transition: transform 0.35s ease 0s;
+}
+.portfolio-dexter .cshero-portfolio-title {
+    margin: 0 0 2px;
+    text-transform: uppercase;
+}
+.portfolio-dexter .cshero-portfolio-description {
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+       -moz-transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+         -o-transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+        -ms-transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+            transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+}
+.portfolio-dexter .cshero-portfolio-container:hover .cshero-portfolio-wrapper:before {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.portfolio-dexter .cshero-portfolio-container:hover .cshero-portfolio-description {
+    opacity: 1;
+    -webkit-transform: translateY(105px);
+       -moz-transform: translateY(105px);
+        -ms-transform: translateY(105px);
+         -o-transform: translateY(105px);
+            transform: translateY(105px);
+}
+.portfolio-dexter .cshero-portfolio-container:hover .cshero-portfolio-pic-inner img {
+    opacity: 0.4;
+}

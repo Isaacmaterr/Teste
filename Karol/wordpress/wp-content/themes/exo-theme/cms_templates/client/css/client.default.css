@@ -1,0 +1,32 @@
+.client-default .cshero-header {
+	margin-bottom: 30px;
+}
+.client-default .bx-wrapper {
+    max-width: 100% !important;
+}
+.client-default .cs-client-carousel-item-wrap {
+	margin-right: 12px !important;
+}
+.client-default .cs-client-carousel-item-wrap .cs-carousel-item {
+    padding-right: 10px;
+    margin: 0 !important;
+    position: relative;
+}
+.client-default .cs-client-carousel-item-wrap .cs-carousel-item:after {
+	content: "";
+    width: 1px;
+    background: rgba(238,238,238,0.2);
+    position: absolute;
+    right: -2px;
+    top: 10px;
+    bottom: 10px;
+}
+.client-default .cs-carousel-container {
+	border-bottom: 1px solid rgba(238,238,238,0.2);
+}
+.client-default .cs-client-carousel-item-wrap .cs-carousel-item:nth-child(2) .cs-carousel-container {
+    border-bottom: none !important;
+}
+.client-default .cs-carousel-container img {
+	padding: 15px 0;
+}

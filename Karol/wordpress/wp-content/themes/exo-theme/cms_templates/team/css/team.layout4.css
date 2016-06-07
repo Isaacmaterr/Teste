@@ -1,0 +1,90 @@
+.team-layout4 .cshero-team-title {
+    text-transform: uppercase;
+}
+.team-layout4 .cshero-team-title a {
+    display: block;
+}
+.team-layout4 .cshero-team-image-wrap {
+	position: relative;
+    overflow: hidden;
+	margin: 0 0 20px;
+}
+.team-layout4 .cshero-team-image-wrap img {
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.team-layout4 .cshero-team-social {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    opacity: 0;
+    -webkit-transform: translate3d(0px, 50%, 0px);
+       -moz-transform: translate3d(0px, 50%, 0px);
+        -ms-transform: translate3d(0px, 50%, 0px);
+         -o-transform: translate3d(0px, 50%, 0px);
+            transform: translate3d(0px, 50%, 0px);
+    width: 100%;
+    z-index: 3;
+    padding: 0 20px;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.team-layout4 .cshero-team-social a {
+	display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 12px;
+}
+.team-layout4 .cshero-team-social a:hover {
+	color: #bbbbbb;
+}
+.team-layout4 .team-overlay {
+	opacity: 0;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #444444;
+    z-index: 2;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.team-layout4 .cshero-team-info-wrap {
+	font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.team-layout4 .cshero-team-readmore {
+    margin-top: 25px;
+}
+.team-layout4 .cshero-team-image-wrap:hover .cshero-team-social {
+	opacity: 1;
+	-webkit-transform: translate3d(0px, -50%, 0px);
+       -moz-transform: translate3d(0px, -50%, 0px);
+        -ms-transform: translate3d(0px, -50%, 0px);
+         -o-transform: translate3d(0px, -50%, 0px);
+            transform: translate3d(0px, -50%, 0px);
+}
+.team-layout4 .cshero-team-image-wrap:hover .team-overlay {
+	opacity: 1;
+}
+.team-layout4 .cshero-team-image-wrap:hover img {
+    -webkit-transform: scale(1.13);
+       -moz-transform: scale(1.13);
+        -ms-transform: scale(1.13);
+         -o-transform: scale(1.13);
+            transform: scale(1.13);
+}

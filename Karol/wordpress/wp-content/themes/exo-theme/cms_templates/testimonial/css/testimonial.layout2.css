@@ -1,0 +1,43 @@
+/* All default css style Default layout*/
+.testimonial-layout2 .cshero-testimonial-image {
+	max-width: 88px;
+    float: left;
+}
+.testimonial-layout2 .cshero-testimonial-image img {
+	height: 88px;
+	width: 88px;
+	-webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+         -o-border-radius: 100%;
+            border-radius: 100%;
+
+}
+.testimonial-layout2 .cshero-testimonial-title {
+	font-size: 22px;
+    color: #13151c;
+    font-weight: bold;
+    margin: 0;
+    line-height: normal;
+}
+.testimonial-layout2 .cshero-testimonial-category {
+	font-size: 14px;
+    font-style: italic;
+    margin: 0 0 10px;
+}
+.testimonial-layout2 .cshero_testimonial_content {
+	border: 1px solid #ebeced;
+    padding: 30px 15px;
+    margin: 0 0 30px;
+    background-color: rgba(255,255,255,0.8);
+}
+.testimonial-layout2 .cshero-testimonial-content-wrapper {
+	padding-left: 100px;
+}
+.testimonial-layout2 .cshero-control {
+	margin-top: 8px;
+	margin-bottom: 33px;
+}
+.testimonial-layout2 .pager-left .bx-pager .bx-pager-inner {
+	text-align: center;
+}

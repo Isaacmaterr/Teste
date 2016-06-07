@@ -1,0 +1,27 @@
+.testimonial-layout4 .cshero-testimonial-inner {
+	text-align: left;
+	border-right: 3px solid #b1e496;
+}
+.testimonial-layout4 .cshero-testimonial-content {
+	padding-left: 120px;
+	border: 1px solid #ecf0f1;
+}
+.testimonial-layout4 .cshero-testimonial-content .cshero-testimonial-text {
+	font-size: 16px;
+    font-weight: normal;
+    padding: 10px 20px;
+    line-height: 26px;
+}
+.testimonial-layout4 .cshero-testimonial-image {
+	display: inline-block;
+    float: left;
+}
+.testimonial-layout4 .cshero-testimonial-title {
+	margin-bottom: 3px;
+}
+.testimonial-layout4 .cshero-testimonial-meta {
+	margin: 26px 0 15px;
+}
+.single-portfolio .testimonial-layout4 .cshero-testimonial-meta {
+	text-align: center;
+}

@@ -1,0 +1,129 @@
+.team-layout6 .cshero-team-image-wrap {
+    position: relative;
+}
+.team-layout6 .cshero-team-image-wrap img {
+    width: 100%;
+}
+.team-layout6 .cshero-team-effect-content .cshero-team-effect-top,
+.team-layout6 .cshero-team-effect-content .cshero-team-effect-bottom {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.team-layout6 .cshero-team-effect-content .cshero-team-effect-top {
+    padding: 85px 100px 0 100px;
+    opacity: 0;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+    -webkit-transform: translate3d(-60px, 0px, 0px);
+       -moz-transform: translate3d(-60px, 0px, 0px);
+        -ms-transform: translate3d(-60px, 0px, 0px);
+         -o-transform: translate3d(-60px, 0px, 0px);
+            transform: translate3d(-60px, 0px, 0px);
+}
+.team-layout6 .cshero-team-effect-content .cshero-team-effect-bottom {
+    top: inherit;
+    bottom: 0;
+    padding: 0 100px 80px 100px;
+}
+.team-layout6 .cshero-team-effect-bottom-inner {
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+    -webkit-transform: translate3d(0px, 35px, 0px);
+       -moz-transform: translate3d(0px, 35px, 0px);
+        -ms-transform: translate3d(0px, 35px, 0px);
+         -o-transform: translate3d(0px, 35px, 0px);
+            transform: translate3d(0px, 35px, 0px);
+}
+.team-layout6 .team-overlay,
+.team-layout6 .team-overlay-before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(10,171,202,0.3);
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.team-layout6 .team-overlay-before {
+    opacity: 1;
+    background: -webkit-linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(0,0,0,0.3) 75%);
+    background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(0,0,0,0.3) 75%);
+}
+.team-layout6 h3.cshero-team-title {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+.team-layout6 .cshero-team-info-wrap {
+    font-size: 15px;
+    font-weight: normal;
+}
+.team-layout6 .cshero-team-social,
+.team-layout6 .cshero-team-content {
+    margin-top: 15px;
+}
+.team-layout6 .cshero-team-readmore {
+    opacity: 0;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+    -webkit-transform: translate3d(60px, 0px, 0px);
+       -moz-transform: translate3d(60px, 0px, 0px);
+        -ms-transform: translate3d(60px, 0px, 0px);
+         -o-transform: translate3d(60px, 0px, 0px);
+            transform: translate3d(60px, 0px, 0px);
+}
+.team-layout6 .cshero-team-readmore a {
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+}
+.team-layout6 .cshero-team-image-wrap:hover .cshero-team-effect-content .cshero-team-effect-top,
+.team-layout6 .cshero-team-image-wrap:hover .cshero-team-readmore {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+       -moz-transform: translate3d(0px, 0px, 0px);
+        -ms-transform: translate3d(0px, 0px, 0px);
+         -o-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}
+.team-layout6 .cshero-team-image-wrap:hover .cshero-team-effect-bottom-inner {
+    opacity: 0;
+    -webkit-transform: translate3d(-60px, 35px, 0px);
+       -moz-transform: translate3d(-60px, 35px, 0px);
+        -ms-transform: translate3d(-60px, 35px, 0px);
+         -o-transform: translate3d(-60px, 35px, 0px);
+            transform: translate3d(-60px, 35px, 0px);
+}
+.team-layout6 .cshero-team-image-wrap:hover .team-overlay {
+    opacity: 1;
+}
+.team-layout6 .cshero-team-image-wrap:hover .team-overlay-before {
+    opacity: 0;
+}
+@media (max-width: 1024px){
+    .team-layout6 .cshero-team-effect-content .cshero-team-effect-top {
+        padding: 35px 50px 0 50px;
+    }
+    .team-layout6 .cshero-team-effect-content .cshero-team-effect-bottom {
+        top: inherit;
+        bottom: 0;
+        padding: 0 50px 30px 50px;
+    }
+}

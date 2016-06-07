@@ -1,0 +1,96 @@
+.postcarousel-layout3 .cshero-carousel-container {
+    position: relative;
+}
+.postcarousel-layout3 .cshero-carousel-image {
+    position: relative;
+}
+.postcarousel-layout3 .overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.postcarousel-layout3 .cshero-carousel-container:hover .overlay {
+    opacity: 1;
+}
+.postcarousel-layout3 .overlay-content {
+    bottom: 0;
+    height: 75px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.postcarousel-layout3 .overlay-content .link-wrap a.zoom-icon,
+.postcarousel-layout3 .overlay-content .link-wrap a.read-icon {
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.postcarousel-layout3 .overlay-content .link-wrap i {
+    font-size: 16px;
+}
+.postcarousel-layout3 .overlay-content .link-wrap i.ion-ios-search {
+    font-size: 24px;
+}
+.postcarousel-layout3 .cshero-carousel-meta {
+    font-size: 13px;
+    font-weight: 600;
+    font-style: italic;
+}
+.postcarousel-layout3 .cshero-carousel-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.postcarousel-layout3 .cshero-carousel-category {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.8);
+    padding: 10px 12px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.postcarousel-layout3 .cshero-carousel-title {
+    opacity: 0;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    background: rgba(0,0,0,0.8);
+    padding: 20px 30px;
+    bottom: 20px;
+    margin: 0;
+    letter-spacing: 0.1em;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+    -webkit-transform: translate3d(20px, 0px, 0px);
+       -moz-transform: translate3d(20px, 0px, 0px);
+        -ms-transform: translate3d(20px, 0px, 0px);
+         -o-transform: translate3d(20px, 0px, 0px);
+            transform: translate3d(20px, 0px, 0px);
+}
+.postcarousel-layout3 .cshero-carousel-container:hover .cshero-carousel-title {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+       -moz-transform: translate3d(0px, 0px, 0px);
+        -ms-transform: translate3d(0px, 0px, 0px);
+         -o-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}

@@ -1,0 +1,42 @@
+/* All default css style Default layout*/
+
+.testimonial-layout3 .cshero-testimonial-title {
+	color: #888;
+}
+.testimonial-layout3 .cshero-testimonial-image img,
+.testimonial-layout3 .cshero-testimonial-content {
+	margin: 0 0 22px;
+}
+.testimonial-layout3 .cshero-testimonial-title {
+	font-weight: 700;
+    margin: 0 0 3px;
+}
+.testimonial-layout3 .cshero-testimonial-category {
+	font-size: 15px;
+    font-style: italic;
+    line-height: 1.2;
+    margin: 0 0 24px;
+}
+.testimonial-layout3 .cshero-testimonial-text {
+	font-size: 18px;
+	font-weight: normal;
+}
+.testimonial-layout3 .cshero-testimonial-content {
+	position: relative;
+}
+.testimonial-layout3 .cshero-testimonial-content > i  {
+	color: #e0e0e0;
+    font-size: 114px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -35px;
+    z-index: -1;
+}
+.testimonial-layout3 .cshero-testimonial-content.no-image-feature {
+	padding-top: 35px;
+}
+.testimonial-layout3 .cshero-testimonial-content.no-image-feature > i  {
+    top: 0px;
+}

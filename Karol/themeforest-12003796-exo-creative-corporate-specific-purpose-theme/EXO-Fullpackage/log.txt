@@ -1,0 +1,15 @@
+V1.0.4
+Optimize Demo Data.
+Optimize Speed.
+SEO Plugins Ready
+
+V1.0.3
+Add Option EXO Survey.
+Support Woo Shop.
+Fixed Angle Option
+
+
+
+V1.0.2
+Fixed css issue IE 
+Fixed demo data.

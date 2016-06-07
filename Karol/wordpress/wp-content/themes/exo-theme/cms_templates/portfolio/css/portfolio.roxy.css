@@ -1,0 +1,129 @@
+.portfolio-roxy .cshero-portfolio-wrapper {
+    position: relative;
+}
+.portfolio-roxy .cshero-portfolio-wrapper .border-hover {
+    border: 1px solid #fff;
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    opacity: 0;
+    z-index: 3;
+    -webkit-transform: translateX(-30px);
+       -moz-transform: translateX(-30px);
+        -ms-transform: translateX(-30px);
+         -o-transform: translateX(-30px);
+            transform: translateX(-30px);
+    -webkit-transition: all 0.35s ease 0s;
+       -moz-transition: all 0.35s ease 0s;
+         -o-transition: all 0.35s ease 0s;
+        -ms-transition: all 0.35s ease 0s;
+            transition: all 0.35s ease 0s;
+}
+.portfolio-roxy .cshero-portfolio-pic-inner {
+    overflow: hidden;
+}
+.portfolio-roxy .cshero-portfolio-pic-wrapper {
+    position: relative;
+    z-index: 2;
+}
+.portfolio-roxy.cshero-portfolio .cshero-portfolio-item img {
+    opacity: 0.8;
+    -webkit-width: -webkit-calc(100% + 50px);
+    -moz-width: -moz-calc(100% + 50px);
+    width: calc(100% + 50px);
+    max-width: inherit;
+    -webkit-transform: translate3d(-40px, 0px, 0px);
+       -moz-transform: translate3d(-40px, 0px, 0px);
+        -ms-transform: translate3d(-40px, 0px, 0px);
+         -o-transform: translate3d(-40px, 0px, 0px);
+            transform: translate3d(-40px, 0px, 0px);
+    -webkit-transition: transform 0.35s ease 0s;
+       -moz-transition: transform 0.35s ease 0s;
+         -o-transition: transform 0.35s ease 0s;
+        -ms-transition: transform 0.35s ease 0s;
+            transition: transform 0.35s ease 0s;
+}
+.portfolio-roxy .overlay-more,
+.portfolio-roxy .overlay-content {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    -webkit-transition: all 0.35s ease 0s;
+       -moz-transition: all 0.35s ease 0s;
+         -o-transition: all 0.35s ease 0s;
+        -ms-transition: all 0.35s ease 0s;
+            transition: all 0.35s ease 0s;
+}
+.portfolio-roxy .overlay-more {
+    z-index: 5;
+}
+.portfolio-roxy .overlay-content {
+    z-index: 1;
+    background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+    background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+}
+.portfolio-roxy .cshero-portfolio-content-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    padding: 25px 60px;
+    z-index: 3;
+    -webkit-transform: translate(0px, -50%);
+       -moz-transform: translate(0px, -50%);
+        -ms-transform: translate(0px, -50%);
+         -o-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+    -webkit-transition: transform 0.35s ease 0s;
+       -moz-transition: transform 0.35s ease 0s;
+         -o-transition: transform 0.35s ease 0s;
+        -ms-transition: transform 0.35s ease 0s;
+            transition: transform 0.35s ease 0s;
+}
+.portfolio-roxy .cshero-portfolio-title {
+    margin: 0 0 2px;
+    text-transform: uppercase;
+}
+.portfolio-roxy .cshero-portfolio-description {
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0;
+    -webkit-transform: translate3d(-30px, 0px, 0px);
+       -moz-transform: translate3d(-30px, 0px, 0px);
+        -ms-transform: translate3d(-30px, 0px, 0px);
+         -o-transform: translate3d(-30px, 0px, 0px);
+            transform: translate3d(-30px, 0px, 0px);
+    -webkit-transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+       -moz-transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+         -o-transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+        -ms-transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+            transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+}
+.portfolio-roxy .cshero-portfolio-container:hover .cshero-portfolio-wrapper .border-hover { 
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+       -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+         -o-transform: translateX(0px);
+            transform: translateX(0px);
+}
+.portfolio-roxy .cshero-portfolio-container:hover .cshero-portfolio-description {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+       -moz-transform: translate3d(0px, 0px, 0px);
+        -ms-transform: translate3d(0px, 0px, 0px);
+         -o-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}
+.portfolio-roxy .cshero-portfolio-container:hover .cshero-portfolio-pic-inner img {
+    opacity: 0.7;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+       -moz-transform: translate3d(0px, 0px, 0px);
+        -ms-transform: translate3d(0px, 0px, 0px);
+         -o-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}

@@ -1,0 +1,27 @@
+.tp-caption.mfnrs_barber_light {
+font-size:34px;
+line-height:38px;
+font-weight:300;
+font-family:"Rufina";
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+padding:0px 0px 0px 0px;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.mfnrs_barber_small_light {
+color:#EEEEEE;
+text-shadow:none;
+background-color:transparent;
+text-decoration:none;
+font-size:12px;
+line-height:17px;
+font-family:Rufina;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+

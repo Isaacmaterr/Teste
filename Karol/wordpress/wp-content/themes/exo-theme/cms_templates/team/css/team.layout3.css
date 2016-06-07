@@ -1,0 +1,102 @@
+.team-layout3 .cshero-team-title-wrap,
+.team-layout3 .cshero-team-info-wrap {
+    opacity: 0;
+    -webkit-transition: all 200ms linear 0ms;
+       -moz-transition: all 200ms linear 0ms;
+         -o-transition: all 200ms linear 0ms;
+        -ms-transition: all 200ms linear 0ms;
+            transition: all 200ms linear 0ms;
+    -webkit-transform: translate3d(-40px, 0px, 0px);
+       -moz-transform: translate3d(-40px, 0px, 0px);
+        -ms-transform: translate3d(-40px, 0px, 0px);
+         -o-transform: translate3d(-40px, 0px, 0px);
+            transform: translate3d(-40px, 0px, 0px);
+}
+.team-layout3 .cshero-team-info-wrap {
+    -webkit-transition: all 320ms linear 0ms;
+       -moz-transition: all 320ms linear 0ms;
+         -o-transition: all 320ms linear 0ms;
+        -ms-transition: all 320ms linear 0ms;
+            transition: all 320ms linear 0ms;
+}
+.team-layout3 .cshero-team-social {
+    opacity: 0;
+    -webkit-transition: all 420ms linear 0ms;
+       -moz-transition: all 420ms linear 0ms;
+         -o-transition: all 420ms linear 0ms;
+        -ms-transition: all 420ms linear 0ms;
+            transition: all 420ms linear 0ms;
+    -webkit-transform: translate3d(0px, 40px, 0px);
+       -moz-transform: translate3d(0px, 40px, 0px);
+        -ms-transform: translate3d(0px, 40px, 0px);
+         -o-transform: translate3d(0px, 40px, 0px);
+            transform: translate3d(0px, 40px, 0px);
+}
+.team-layout3 .cshero-team-title {
+    margin: 0 0 10px;
+}
+.team-layout3 .cshero-team-image-wrap {
+	position: relative;
+    overflow: hidden;
+	margin: 0 0 20px;
+}
+.team-layout3 .cshero-team-content-overlay {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    padding: 25px 30px;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.team-layout3 .cshero-team-social a {
+	display: inline-block;
+    color: #444444;
+    font-size: 17px;
+    margin: 0 12px;
+}
+.team-layout3 .cshero-team-social a:first-child {
+    margin-left: 0;
+}
+.team-layout3 .cshero-team-social a:hover {
+	color: #999999;
+}
+.team-layout3 .team-overlay {
+	opacity: 0;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,1);
+    z-index: 2;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.team-layout3 .cshero-team-info-wrap {
+    font-size: 15px;
+    font-weight: normal;
+    color: #999999;
+    margin-bottom: 50px;
+}
+.team-layout3 .cshero-team-readmore {
+    margin-top: 25px;
+}
+.team-layout3 .cshero-team-image-wrap:hover .team-overlay,
+.team-layout3 .cshero-team-image-wrap:hover .cshero-team-title-wrap,
+.team-layout3 .cshero-team-image-wrap:hover .cshero-team-info-wrap,
+.team-layout3 .cshero-team-image-wrap:hover .cshero-team-social {
+	opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+       -moz-transform: translate3d(0px, 0px, 0px);
+        -ms-transform: translate3d(0px, 0px, 0px);
+         -o-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}

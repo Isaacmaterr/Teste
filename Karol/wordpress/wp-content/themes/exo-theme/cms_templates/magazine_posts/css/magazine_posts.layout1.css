@@ -1,0 +1,177 @@
+.magazine_posts-layout1 {
+	font-size: 16px;
+	line-height: 28px;
+	text-align: left;
+}
+.magazine_posts-layout1 .magazine-post-featured {
+	padding-right: 12px;
+	overflow: hidden;
+}
+.magazine_posts-layout1 .magazine-post-featured .cs-blog-thumbnail img {
+	max-width: 110%;
+}
+.magazine_posts-layout1 .magazine-post-featured .cs-blog-content {
+	height: 100%;
+    left: 0;
+    padding: 23px 23px 23px 38px;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+.magazine_posts-layout1 .cms-blog-title a {
+	color: #fff;
+	margin: 0 0 12px;
+}
+.magazine_posts-layout1 .post-list-content .cms-blog-title a {
+	color: #13151c;
+}
+.magazine_posts-layout1 .magazine-post-featured .cms-readmore {
+	margin-top: 25px;
+}
+.magazine_posts-layout1 .magazine-post-featured .release-date {
+	bottom: 14px;
+    position: absolute;
+    right: 26px;
+}
+.magazine_posts-layout1 .cs-blog-content {
+	color: #fff;
+}
+.magazine_posts-layout1 .post-list-content .cs-blog-content {
+	color: #13151c;
+}
+.magazine_posts-layout1 .magazine-post-lists {
+	padding-left: 0;
+}
+.magazine_posts-layout1 .magazine-post-lists > .container {
+	margin-bottom: 27px;
+}
+.magazine_posts-layout1 .magazine-post-lists > .container:last-child {
+	margin-bottom: 0;
+}
+.magazine_posts-layout1 .magazine-post-lists .cms-blog-title {
+	margin: 0 0 4px;
+	padding-right: 10px;
+}
+.magazine_posts-layout1 .magazine-post-lists .cms-post-list-readmore span {
+	position: relative;
+	padding-right: 18px;
+	font-weight: 700;
+	font-style: italic;
+}
+.magazine_posts-layout1 .magazine-post-lists .cms-post-list-readmore a {
+	font-weight: 700;
+	font-style: italic;
+}
+.magazine_posts-layout1 .magazine-post-lists .cms-post-list-readmore span,
+.magazine_posts-layout1 .magazine-post-lists .cms-post-list-readmore a {
+	color: #888;
+}
+.magazine_posts-layout1 .magazine-post-lists .cms-post-list-readmore span:before {
+    content: "";
+    height: 15px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    width: 1px;
+    background-color: #9edd7f;
+}
+.magazine_posts-layout1 .magazine-post-lists .cs-blog-content {
+	border-bottom: 1px solid #dbdcdd;
+	margin-bottom: 2px;
+	padding-right: 10px;
+}
+.magazine_posts-layout1 .magazine-post-lists .post-list-item:last-child {
+	margin-bottom: 0;
+} 
+.magazine_posts-layout1  .post-list-item {
+	margin-bottom: 30px;
+}
+.magazine_posts-layout1 .cs-blog-thumbnail img {
+	max-width: 110%;
+    width: 100%;
+    height: 100%;
+}
+.magazine_posts-layout1 .post-list-feature,
+.magazine_posts-layout1 .cs-blog-header,
+.magazine_posts-layout1 .cs-blog-media,
+.magazine_posts-layout1 .cs-blog-thumbnail {
+	position: relative;
+	height: 100%;
+}
+@media (max-width:1280px) and (min-width:1200px) {
+	.magazine_posts-layout1 {
+	    line-height: 24px;
+	}
+	.magazine_posts-layout1 .post-list-item {
+	    margin-bottom: 41px;
+	}
+	.magazine_posts-layout1 .magazine-post-lists .cms-blog-title {
+    	font-size: 20px;
+	}
+}
+@media (max-width:1200px) {
+	/* Magazine Posts */
+	.magazine_posts-layout1 {
+   		font-size: 15px;
+	    line-height: 24px;
+	}
+	#wrapper .magazine_posts-layout1 .cms-blog-title a {
+		font-size: 20px;
+	}
+	#wrapper  .magazine_posts-layout1 .magazine-post-lists .cms-blog-title {
+		font-size: 18px;
+	}
+	.magazine_posts-layout1 .post-list-item {
+	    margin-bottom: 20px;
+	}
+	.magazine_posts-layout1 .magazine-post-lists {
+	    font-size: 15px;
+	}
+}
+@media (max-width: 992px) {
+	#wrapper .magazine_posts-layout1 .cms-blog-title a {
+		font-size: 18px;
+	}
+	#wrapper  .magazine_posts-layout1 .magazine-post-lists .cms-blog-title {
+		font-size: 16px;
+	}
+	.magazine_posts-layout1 .magazine-post-featured .cs-blog-content {
+	    width: 70%;
+	    padding: 10px 30px;
+	}
+	.magazine_posts-layout1 {
+	    font-size: 13px;
+	    line-height: 20px;
+	}
+	.magazine_posts-layout1 .magazine-post-lists {
+	    font-size: 13px;
+	}
+}
+@media (max-width: 767px) {
+	.magazine_posts-layout1 .magazine-post-lists {
+	    margin-top: 20px 30px;
+	}
+	.magazine_posts-layout1 .magazine-post-lists .container {
+	    padding-left: 30px;
+	}
+	.magazine_posts-layout1 .magazine-post-lists .cs-blog-thumbnail {
+		margin-bottom: 15px;
+	}
+	.magazine_posts-layout1 .magazine-post-lists .cs-blog-content {
+		margin-bottom: 10px;
+	}
+	.cs-instagram-pics .instagram-item {
+		width: 25%;
+	}
+	.magazine_posts-layout1 .same-height-column {
+		height: 100% !important;
+	}
+	.magazine_posts-layout1 .magazine-post-featured {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 480px) {
+	.magazine_posts-layout1 .magazine-post-featured .cs-blog-content {
+	    width: 100%;
+	}
+}

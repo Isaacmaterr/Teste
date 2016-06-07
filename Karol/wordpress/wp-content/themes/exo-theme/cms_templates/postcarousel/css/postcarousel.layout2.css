@@ -1,0 +1,60 @@
+.postcarousel-layout2 .cshero-carousel-image {
+	position: relative;
+	margin-bottom: 20px;
+}
+.postcarousel-layout2 .overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.postcarousel-layout2 .cshero-carousel-container:hover .overlay {
+	opacity: 1;
+}
+.postcarousel-layout2 .overlay-content {
+	bottom: 0;
+    height: 75px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.postcarousel-layout2 .overlay-content .link-wrap a.zoom-icon,
+.postcarousel-layout2 .overlay-content .link-wrap a.read-icon {
+	padding: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.postcarousel-layout2 .overlay-content .link-wrap i {
+	font-size: 16px;
+}
+.postcarousel-layout2 .overlay-content .link-wrap i.ion-ios-search {
+	font-size: 24px;
+}
+.postcarousel-layout2 .cshero-carousel-meta {
+	font-size: 13px;
+	font-weight: 600;
+	font-style: italic;
+}
+.postcarousel-layout2 .cshero-carousel-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 12px;
+}
